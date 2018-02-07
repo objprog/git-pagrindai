@@ -5,6 +5,8 @@ _Čia yra pateikiamas pagrindinių (dažniausiai naudojamų) Git komandų sąra�
 
 Norintiems plačiau susipažinti su Git galimybės, rekomenduočiau susipažinti su [Atlassian parengta Git mokymo medžiaga](https://www.atlassian.com/git/tutorials), o taip pat žvilgtelėkite [naudingos nuorodos](#naudingos-nuorodos) skyrių.
 
+Kad būtų paprasčiau suprasti Git komandas, reikia pirma susipažinti kokias būsenas failas gali įgyti Git'o akimis: ![Galimos failų būsenos](https://image.slidesharecdn.com/gittutorial-150724014321-lva1-app6891/95/git-tutorial-8-638.jpg?cb=1437702443)
+
 ### Git atsisiuntimas ir konfigūravimas
 
 Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://git-scm.com)
