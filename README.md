@@ -84,7 +84,7 @@ kuriomis pasakome, kad mes nenorime, kad Git'as sektų šiuos katalogus/failus.
 5. Įvykdome `git commit -m "Komito zinute"`
 6. Tuomet einate į GitHub ir susikuriate naują repoziciją, pvz. `Darbas1` į kurią norėsite push'inti
 7. Tuomet Git Bash'e įvykdote `git remote add origin <jusu-github-repozicijos-adresas>`
-8. Galiausiai viską nusiunčiame į GitHub serverį: `git push origin master
+8. Galiausiai viską nusiunčiame į GitHub serverį: `git push -u origin master`
 
 ## Naudingos nuorodos
 
