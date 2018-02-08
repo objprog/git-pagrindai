@@ -15,6 +15,7 @@ Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://g
 | ----------- | ------------ |
 | `git config --global user.name "Vardas Pavardė"`           | Nustatykite autoriaus (Git naudodojo) vardą     |
 | `git config --global user.email vardas.pavarde@mif.vu.lt`  | Nustatykite autoriaus (Git naudodojo) el. paštą |
+| `git config --list`  | Patikrinti vartotojo profilį |
 
 ### Naujo projekto kūrimas ir klonavimas (atsisiuntimas) 
 
