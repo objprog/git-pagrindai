@@ -66,6 +66,26 @@ Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://g
 | `git checkout -- <failo-vardas>` | Išmesti (panaikinti) failo pakeitimus |
 | `git merge [<branch-vardas>` | Sulieti (merge) branch'ą į šiuo metu aktyvų branch'ą |
 
+### Git repozicijos inicializavimas ir paruošimas push'inimui į Github'ą naudojantis Git Bash terminalu
+
+1. Kataloge talpinančiame Jūsų **Codeblock** projektą įvykdykite: `git init`
+2. Sukuriame `.gitignore` failą įvykdę komandą: `touch .gitignore`
+3. Atsidarote `.gitignore` failą su Jūsų mėgstamu redaktoriumi (nebūtina naudoti Vim :) ) ir pridedate tokias eilutes:
+
+```
+obj/
+bin/
+*.cbp
+*.layout
+```
+kuriomis pasakome, kad mes nenorime, kad Git'as sektų šiuos katalogus/failus.
+
+4. Įvykdome `git add .`
+5. Įvykdome `git commit -m "Komito zinute"`
+6. Tuomet einate į GitHub ir susikuriate naują repoziciją, pvz. `Darbas1` į kurią norėsite push'inti
+7. Tuomet Git Bash'e įvykdote `git remote add origin <jusu-github-repozicijos-adresas>`
+8. Galiausiai viską nusiunčiame į GitHub serverį: `git push origin master
+
 ## Naudingos nuorodos
 
 1. [Github - Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
