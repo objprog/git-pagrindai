@@ -31,7 +31,7 @@ Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://g
 | `git status` | Patikrinti repozicijos statusą |
 | `git add <failo-vardas>` | Pridėti (angl. stage) naują/modifikuotą failą (į index sritį) kitam commit'ui |
 | `git add -A` | Pridėti (stage) visus naujus ir modifikuotus vailus į index sritį |
-| `gi commit`  | Commit'inti išsaugotus (stage'intus) failus (index srityje) |
+| `git commit`  | Commit'inti išsaugotus (stage'intus) failus (index srityje) |
 | `git commit -m "Commit žinutė"` | Commit'inti išsaugotus (stage'intus) failus (index srityje) neatveriant Vim ar kito redaktoriaus commit'o žinutės rašymui |
 | `git commit -a` | dvi komandos: `git commit + git add` vienoje |
 | `git rm -r <failo-vardas>` | Ištrinti failą/katalogą iš Git repozicijos |
@@ -69,5 +69,5 @@ Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://g
 ## Naudingos nuorodos
 
 1. [Github - Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
-2. [Atlassian - Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+2. [Atlassian - Git cheat sheet](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
 
