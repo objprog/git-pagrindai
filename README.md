@@ -92,4 +92,5 @@ kuriomis pasakome, kad mes nenorime, kad Git'as sektų šiuos katalogus/failus.
 2. [Atlassian - Git cheat sheet](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
 3. [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
 4. [Adding an existing project to GitHub using GitHub Desktop](https://help.github.com/desktop/guides/contributing-to-projects/adding-an-existing-project-to-github-using-github-desktop/)
+5. [https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
