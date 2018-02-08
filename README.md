@@ -3,7 +3,7 @@ Git komandos
 
 _Čia yra pateikiamas pagrindinių (dažniausiai naudojamų) Git komandų sąrašas ir jų paaiškinimai._
 
-Norintiems plačiau susipažinti su Git galimybės, rekomenduočiau susipažinti su [Atlassian parengta Git mokymo medžiaga](https://www.atlassian.com/git/tutorials), o taip pat žvilgtelėkite [naudingos nuorodos](#naudingos-nuorodos) skyrių.
+Norintiems plačiau susipažinti su Git galimybės, rekomenduočiau susipažinti su [Atlassian parengta Git mokymo medžiaga](https://www.atlassian.com/git/tutorials), o taip pat žvilgtelėkite [naudingų nuorodų](#naudingos-nuorodos) skyrių.
 
 Kad būtų paprasčiau suprasti Git komandas, reikia pirma susipažinti kokias būsenas failas gali įgyti Git'o akimis: ![Galimos failų būsenos](https://image.slidesharecdn.com/gittutorial-150724014321-lva1-app6891/95/git-tutorial-8-638.jpg?cb=1437702443)
 
@@ -70,4 +70,6 @@ Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://g
 
 1. [Github - Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 2. [Atlassian - Git cheat sheet](https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf)
+3. [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+4. [Adding an existing project to GitHub using GitHub Desktop](https://help.github.com/desktop/guides/contributing-to-projects/adding-an-existing-project-to-github-using-github-desktop/)
 
