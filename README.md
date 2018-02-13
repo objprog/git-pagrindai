@@ -94,3 +94,5 @@ kuriomis pasakome, kad mes nenorime, kad Git'as sektų šiuos katalogus/failus.
 4. [Adding an existing project to GitHub using GitHub Desktop](https://help.github.com/desktop/guides/contributing-to-projects/adding-an-existing-project-to-github-using-github-desktop/)
 5. [https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 6. [Why is Git called Git?](https://www.quora.com/Why-is-Git-called-Git/answer/Qasim-Zeeshan?share=81d05251&srid=utQYg)
+7. [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+8. [Mastering Markdown - GitHub Guides](https://guides.github.com/features/mastering-markdown/)
