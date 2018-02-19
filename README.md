@@ -51,21 +51,6 @@ Git atsisiuntimas (visoms operacinėms systemoms): [http://git-scm.com](http://g
 | `git push origin --delete <branch-vardas>` | Ištrinti branch'ą nuotoliniame serveryje |
 | `git pull` | Atnaujinti lokalią repozicją pagal nuotolinę versiją (atsisiūsti commit'us iš serverio) |
 
-### Šakojimas (angl. branch) & ir suliejimas (angl. merge)
-
-| Command | Description |
-| ------- | ----------- |
-| `git branch` | Parodyti visus branch'us (žvaigždutė pažymi šiuo metu aktyvų) |
-| `git branch -a` | arodyti visus (lokalius ir nuotolinius) branch'us |
-| `git branch <branch-vardas>` | Sukurti naują branch'ą |
-| `git branch -d <branch-vardas>` | Ištrinti branch'ą |
-| `git push origin --delete <branch-vardas>` | Ištrinti nuotolinį branch'ą (serveryje) |
-| `git checkout -b <branch-vardas>` | Sukurti naują branch'ą ir persijungti į jį |
-| `git checkout -b <branch-vardas> origin/<branch-vardas>` | Klonuoti nuotolinį branch'ą ir persijungti į jį |
-| `git checkout <branch-vardas>` | Persijungti iš vieno branch'o į kitą branch'ą |
-| `git checkout -- <failo-vardas>` | Išmesti (panaikinti) failo pakeitimus |
-| `git merge [<branch-vardas>` | Sulieti (merge) branch'ą į šiuo metu aktyvų branch'ą |
-
 ### Git repozicijos inicializavimas ir paruošimas push'inimui į Github'ą naudojantis Git Bash terminalu
 
 1. Kataloge talpinančiame Jūsų **Codeblock** projektą įvykdykite: `git init`
@@ -85,6 +70,21 @@ kuriomis pasakome, kad mes nenorime, kad Git'as sektų šiuos katalogus/failus.
 6. Tuomet einate į GitHub ir susikuriate naują repoziciją, pvz. `Darbas1` į kurią norėsite push'inti
 7. Tuomet Git Bash'e įvykdote `git remote add origin <jusu-github-repozicijos-adresas>`
 8. Galiausiai viską nusiunčiame į GitHub serverį: `git push -u origin master`
+
+### Šakojimas (angl. branch) & ir suliejimas (angl. merge)
+
+| Git komanda | Paaiškinimas |
+| ----------- | ------------ |
+| `git branch` | Parodyti visus branch'us (žvaigždutė pažymi šiuo metu aktyvų) |
+| `git branch -a` | arodyti visus (lokalius ir nuotolinius) branch'us |
+| `git branch <branch-vardas>` | Sukurti naują branch'ą |
+| `git branch -d <branch-vardas>` | Ištrinti branch'ą |
+| `git push origin --delete <branch-vardas>` | Ištrinti nuotolinį branch'ą (serveryje) |
+| `git checkout -b <branch-vardas>` | Sukurti naują branch'ą ir persijungti į jį |
+| `git checkout -b <branch-vardas> origin/<branch-vardas>` | Klonuoti nuotolinį branch'ą ir persijungti į jį |
+| `git checkout <branch-vardas>` | Persijungti iš vieno branch'o į kitą branch'ą |
+| `git checkout -- <failo-vardas>` | Išmesti (panaikinti) failo pakeitimus |
+| `git merge [<branch-vardas>` | Sulieti (merge) branch'ą į šiuo metu aktyvų branch'ą |
 
 ## Naudingos nuorodos
 
